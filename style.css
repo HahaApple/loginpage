@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image: url(https://media.istockphoto.com/photos/colorful-empty-background-picture-id811314000?b=1&k=20&m=811314000&s=170667a&w=0&h=2v0ZfpmV8suXNolu058zWarNdaEj2ZkAJcHATswdJKg=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;    
+}
+
+.container1 {
+    margin-top: 150px;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 5px 25px #d6d4d4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+input {
+    width: 15vw;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bbb5b5;
+    color:rgb(9, 9, 8)
+}
+.username {
+    
+    text-align: center;
+    padding-bottom: 20px;
+}
+.password {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+button {
+    width: 15vw;
+    background-color: #417aba;
+    border: none;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 25px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 15px;
+}
+@media (max-width: 800px) {
+    .container1 {
+        width: 50vw;
+    }
+    
+}
+
