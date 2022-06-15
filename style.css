@@ -1,9 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif; 
-    background-image: url(https://media.istockphoto.com/photos/colorful-empty-background-picture-id811314000?b=1&k=20&m=811314000&s=170667a&w=0&h=2v0ZfpmV8suXNolu058zWarNdaEj2ZkAJcHATswdJKg=);
+    background-image: url(https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    overflow: hidden;
     height : 100vh;
     display: flex;
     justify-content: center;   
@@ -21,6 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 10px 5px 25px #d6d4d4;
+    opacity: 0.7;
 }
 
 h1 {
